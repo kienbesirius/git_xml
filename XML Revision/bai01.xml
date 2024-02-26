@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- <!DOCTYPE BenhVienDaKhoa SYSTEM "bai01.dtd"> -->
+<!-- Above Line is The External needs a file .dtd define !DOCTYPE -->
+
+<!-- Below Lines Comment is The Internal needs -->
+<!-- <!DOCTYPE BenhVienDaKhoa [
+<!ELEMENT BenhVienDaKhoa (Khoa,DanhSachBenhNhan)>
+<!ELEMENT Khoa (#PCDATA)>
+<!ELEMENT DanhSachBenhNhan (BenhNhan*)>
+<!ELEMENT BenhNhan (STT,MaBenhAn,HoTen,DiaChi,GioiTinh,NgayNhapVien,SoNgayDieuTri,SoTienPhaiTra)>
+<!ELEMENT STT (#PCDATA)>
+<!ELEMENT MaBenhAn (#PCDATA)>
+<!ELEMENT HoTen (#PCDATA)>
+<!ELEMENT DiaChi (#PCDATA)>
+<!ELEMENT GioiTinh (#PCDATA)>
+<!ELEMENT NgayNhapVien (#PCDATA)>
+<!ELEMENT SoNgayDieuTri (#PCDATA)>
+<!ELEMENT SoTienPhaiTra (#PCDATA)>
+<!ATTLIST BenhNhan MaBenhAn ID #REQUIRED>
+]> -->
+
+<!-- <BenhVienDaKhoa> -->
+       
+        <BenhVienDaKhoa 
+            xsi:schemaLocation="http://tempuri.org/XMLSchema.xsd bai01.xsd"
+            xmlns="http://tempuri.org/XMLSchema.xsd"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        > 
+
+    <Khoa>Phòng khám mắt</Khoa>
+    <DanhSachBenhNhan>
+        <BenhNhan MaBenhAn="BN001">
+            <STT>1</STT>
+            <MaBenhAn>BN001</MaBenhAn>
+            <HoTen>Nguyễn Văn A</HoTen>
+            <DiaChi>123 Đường ABC, Quận XYZ, Thành phố HCM</DiaChi>
+            <GioiTinh>Nam</GioiTinh>
+            <NgayNhapVien>2024-02-26</NgayNhapVien>
+            <SoNgayDieuTri>5</SoNgayDieuTri>
+            <SoTienPhaiTra>5000000</SoTienPhaiTra>
+        </BenhNhan>
+        <BenhNhan MaBenhAn="BN002">
+            <STT>2</STT>
+            <MaBenhAn>BN002</MaBenhAn>
+            <HoTen>Trần Thị B</HoTen>
+            <DiaChi>456 Đường XYZ, Quận ABC, Thành phố HCM</DiaChi>
+            <GioiTinh>Nữ</GioiTinh>
+            <NgayNhapVien>2024-02-25</NgayNhapVien>
+            <SoNgayDieuTri>3</SoNgayDieuTri>
+            <SoTienPhaiTra>3000000</SoTienPhaiTra>
+        </BenhNhan>
+    </DanhSachBenhNhan>
+</BenhVienDaKhoa>

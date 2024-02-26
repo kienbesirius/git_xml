@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<!-- <!DOCTYPE QLChamCong SYSTEM "bai04.dtd"> -->
+<!-- Above Line is The External needs a file .dtd define !DOCTYPE -->
+
+<!-- Below Lines Comment is The Internal needs -->
+
+<!-- <!DOCTYPE QLChamCong [
+    <!ELEMENT QLChamCong (QLChamCongThang*)>
+    <!ELEMENT QLChamCongThang (Thang, DonVi, BangChamCong)>
+    <!ATTLIST QLChamCongThang Thang CDATA #REQUIRED>
+    <!ELEMENT Thang (#PCDATA)>
+    <!ELEMENT DonVi (#PCDATA)>
+    <!ELEMENT BangChamCong (CongNhanVien*)>
+    <!ELEMENT CongNhanVien (STT,MaNhanVien, HoTenNhanVien, SoNgayCong, GhiChu)>
+    <!ELEMENT STT (#PCDATA)>
+    <!ELEMENT MaNhanVien (#PCDATA)>
+    <!ELEMENT HoTenNhanVien (#PCDATA)>
+    <!ELEMENT SoNgayCong (#PCDATA)>
+    <!ELEMENT GhiChu (#PCDATA)>
+    <!ATTLIST CongNhanVien MaNhanVien ID #REQUIRED>
+]> -->
+<QLChamCong>
+    <QLChamCongThang Thang="9">
+        <Thang>9</Thang>
+        <DonVi>ICTU</DonVi>
+        <BangChamCong>
+            <CongNhanVien MaNhanVien="be2">
+                <STT>1</STT>
+                <MaNhanVien>be2 </MaNhanVien>
+                <HoTenNhanVien>Vi Thi Anh</HoTenNhanVien>
+                <SoNgayCong>1</SoNgayCong>
+                <GhiChu>Khong Dat</GhiChu>
+            </CongNhanVien>
+            <CongNhanVien MaNhanVien="be3">
+                <STT>2</STT>
+                <MaNhanVien>be3 </MaNhanVien>
+                <HoTenNhanVien>Dao Hoang Anh</HoTenNhanVien>
+                <SoNgayCong>7</SoNgayCong>
+                <GhiChu>DAT</GhiChu>
+            </CongNhanVien>
+            <CongNhanVien MaNhanVien="be4">
+                <STT>3</STT>
+                <MaNhanVien>be4 </MaNhanVien>
+                <HoTenNhanVien>Nong Hong Khuong</HoTenNhanVien>
+                <SoNgayCong>8</SoNgayCong>
+                <GhiChu>DAT</GhiChu>
+            </CongNhanVien>
+            <CongNhanVien MaNhanVien="be5">
+                <STT>4</STT>
+                <MaNhanVien>be5 </MaNhanVien>
+                <HoTenNhanVien>Be Chi Kien</HoTenNhanVien>
+                <SoNgayCong>7</SoNgayCong>
+                <GhiChu>DAT</GhiChu>
+            </CongNhanVien>
+        </BangChamCong>
+    </QLChamCongThang>
+    <QLChamCongThang Thang="10">
+        <Thang>10</Thang>
+        <DonVi>ICTU</DonVi>
+        <BangChamCong>
+            <CongNhanVien MaNhanVien="be6">
+                <STT>1</STT>
+                <MaNhanVien>be2 </MaNhanVien>
+                <HoTenNhanVien>Lanh Ha Vi</HoTenNhanVien>
+                <SoNgayCong>1</SoNgayCong>
+                <GhiChu>Khong Dat</GhiChu>
+            </CongNhanVien>
+            <CongNhanVien MaNhanVien="be7">
+                <STT>2</STT>
+                <MaNhanVien>be3 </MaNhanVien>
+                <HoTenNhanVien>Tran Nguyen Binh</HoTenNhanVien>
+                <SoNgayCong>7</SoNgayCong>
+                <GhiChu>DAT</GhiChu>
+            </CongNhanVien>
+            <CongNhanVien MaNhanVien="be9">
+                <STT>3</STT>
+                <MaNhanVien>be4 </MaNhanVien>
+                <HoTenNhanVien>Ta Van Thang</HoTenNhanVien>
+                <SoNgayCong>8</SoNgayCong>
+                <GhiChu>DAT</GhiChu>
+            </CongNhanVien>
+            <CongNhanVien MaNhanVien="be8">
+                <STT>4</STT>
+                <MaNhanVien>be5 </MaNhanVien>
+                <HoTenNhanVien>Tran Van Hai
+                </HoTenNhanVien>
+                <SoNgayCong>7</SoNgayCong>
+                <GhiChu>DAT</GhiChu>
+            </CongNhanVien>
+        </BangChamCong>
+    </QLChamCongThang>
+    <QLChamCongThang Thang="11">
+        <Thang>11</Thang>
+        <DonVi>ICTU</DonVi>
+        <BangChamCong>
+            <CongNhanVien MaNhanVien="be11">
+                <STT>1</STT>
+                <MaNhanVien>be2 </MaNhanVien>
+                <HoTenNhanVien>Truong Quang Dat</HoTenNhanVien>
+                <SoNgayCong>1</SoNgayCong>
+                <GhiChu>Khong Dat</GhiChu>
+            </CongNhanVien>
+            <CongNhanVien MaNhanVien="be13">
+                <STT>2</STT>
+                <MaNhanVien>be3 </MaNhanVien>
+                <HoTenNhanVien>Tran Duy Khanh</HoTenNhanVien>
+                <SoNgayCong>7</SoNgayCong>
+                <GhiChu>DAT</GhiChu>
+            </CongNhanVien>
+            <CongNhanVien MaNhanVien="be14">
+                <STT>3</STT>
+                <MaNhanVien>be4 </MaNhanVien>
+                <HoTenNhanVien>Phan Viet Hoang</HoTenNhanVien>
+                <SoNgayCong>8</SoNgayCong>
+                <GhiChu>DAT</GhiChu>
+            </CongNhanVien>
+            <CongNhanVien MaNhanVien="be15">
+                <STT>4</STT>
+                <MaNhanVien>be5 </MaNhanVien>
+                <HoTenNhanVien>Nguyen Thai An</HoTenNhanVien>
+                <SoNgayCong>7</SoNgayCong>
+                <GhiChu>DAT</GhiChu>
+            </CongNhanVien>
+        </BangChamCong>
+    </QLChamCongThang>
+</QLChamCong>

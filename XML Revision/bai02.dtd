@@ -1,0 +1,17 @@
+<!ELEMENT DanhSachSinhVien (LopHocPhan)>
+<!ELEMENT LopHocPhan (HocKy, NamHoc, SoTinChi, DanhSach)>
+<!ELEMENT HocKy (#PCDATA)>
+<!ELEMENT NamHoc (#PCDATA)>
+<!ELEMENT SoTinChi (#PCDATA)>
+<!ELEMENT DanhSach (SinhVien*)>
+<!ELEMENT SinhVien (STT, MaSinhVien, HoTen, NgaySinh, Lop, ThuongXuyen, Thi, TongKetHP, DiemHeChu)>
+<!ELEMENT STT (#PCDATA)>
+<!ELEMENT MaSinhVien (#PCDATA)>
+<!ELEMENT HoTen (#PCDATA)>
+<!ELEMENT NgaySinh (#PCDATA)>
+<!ELEMENT Lop (#PCDATA)>
+<!ELEMENT ThuongXuyen (#PCDATA)>
+<!ELEMENT Thi (#PCDATA)>
+<!ELEMENT TongKetHP (#PCDATA)>
+<!ELEMENT DiemHeChu (#PCDATA)>
+<!ATTLIST SinhVien MaSinhVien ID #REQUIRED>

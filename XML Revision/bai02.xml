@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- <!DOCTYPE DanhSachSinhVien SYSTEM "bai02.dtd"> -->
+<!-- Above Line is The External needs a file .dtd define !DOCTYPE -->
+
+<!-- Below Lines Comment is The Internal needs -->
+<!-- <!DOCTYPE DanhSachSinhVien [
+    <!ELEMENT DanhSachSinhVien (LopHocPhan)>
+    <!ELEMENT LopHocPhan (HocKy, NamHoc, SoTinChi, DanhSach)>
+    <!ELEMENT HocKy (#PCDATA)>
+    <!ELEMENT NamHoc (#PCDATA)>
+    <!ELEMENT SoTinChi (#PCDATA)>
+    <!ELEMENT DanhSach (SinhVien*)>
+    <!ELEMENT SinhVien (STT, MaSinhVien, HoTen, NgaySinh, Lop, ThuongXuyen, Thi, TongKetHP, DiemHeChu)>
+    <!ELEMENT STT (#PCDATA)>
+    <!ELEMENT MaSinhVien (#PCDATA)>
+    <!ELEMENT HoTen (#PCDATA)>
+    <!ELEMENT NgaySinh (#PCDATA)>
+    <!ELEMENT Lop (#PCDATA)>
+    <!ELEMENT ThuongXuyen (#PCDATA)>
+    <!ELEMENT Thi (#PCDATA)>
+    <!ELEMENT TongKetHP (#PCDATA)>
+    <!ELEMENT DiemHeChu (#PCDATA)>
+    <!ATTLIST SinhVien MaSinhVien ID #REQUIRED>
+]> -->
+<DanhSachSinhVien>
+<!--         
+        <DanhSachSinhVien 
+            xsi:schemaLocation="http://tempuri.org/XMLSchema.xsd bai02.xsd"
+            xmlns="http://tempuri.org/XMLSchema.xsd"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        >  -->
+
+    <LopHocPhan>
+        <HocKy>1</HocKy>
+        <NamHoc>2024</NamHoc>
+        <SoTinChi>3</SoTinChi>
+        <DanhSach>
+            <SinhVien MaSinhVien="SV001">
+                <STT>1</STT>
+                <MaSinhVien>SV001</MaSinhVien>
+                <HoTen>Nguyen Van A</HoTen>
+                <NgaySinh>1998-05-15</NgaySinh>
+                <Lop>12A1</Lop>
+                <ThuongXuyen>8.5</ThuongXuyen>
+                <Thi>7.5</Thi>
+                <TongKetHP>8.0</TongKetHP>
+                <DiemHeChu>B+</DiemHeChu>
+            </SinhVien>
+            <SinhVien MaSinhVien="SV002">
+                <STT>2</STT>
+                <MaSinhVien>SV002</MaSinhVien>
+                <HoTen>Tran Thi B</HoTen>
+                <NgaySinh>1999-03-20</NgaySinh>
+                <Lop>12A2</Lop>
+                <ThuongXuyen>7.8</ThuongXuyen>
+                <Thi>8.0</Thi>
+                <TongKetHP>7.9</TongKetHP>
+                <DiemHeChu>B</DiemHeChu>
+            </SinhVien>
+        </DanhSach>
+    </LopHocPhan>
+</DanhSachSinhVien>

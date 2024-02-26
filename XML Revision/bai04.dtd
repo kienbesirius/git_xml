@@ -1,0 +1,13 @@
+<!ELEMENT QLChamCong (QLChamCongThang*)>
+<!ELEMENT QLChamCongThang (Thang, DonVi, BangChamCong)>
+<!ATTLIST QLChamCongThang Thang CDATA #REQUIRED>
+<!ELEMENT Thang (#PCDATA)>
+<!ELEMENT DonVi (#PCDATA)>
+<!ELEMENT BangChamCong (CongNhanVien*)>
+<!ELEMENT CongNhanVien (STT,MaNhanVien, HoTenNhanVien, SoNgayCong, GhiChu)>
+<!ELEMENT STT (#PCDATA)>
+<!ELEMENT MaNhanVien (#PCDATA)>
+<!ELEMENT HoTenNhanVien (#PCDATA)>
+<!ELEMENT SoNgayCong (#PCDATA)>
+<!ELEMENT GhiChu (#PCDATA)>
+<!ATTLIST CongNhanVien MaNhanVien ID #REQUIRED>

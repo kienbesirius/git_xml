@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema
+    id="BenhVienDaKhoa"
+    targetNamespace="http://tempuri.org/XMLSchema.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/XMLSchema.xsd"
+    xmlns:mstns="http://tempuri.org/XMLSchema.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+    <xs:element name="BenhVienDaKhoa">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Khoa" type="xs:string" />
+                <xs:element name="DanhSachBenhNhan">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="BenhNhan" type="patient" maxOccurs="unbounded"></xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:complexType name="patient">
+        <xs:sequence>
+            <xs:element name="STT" type="xs:string" />
+            <xs:element name="MaBenhAn" type="xs:string" />
+            <xs:element name="HoTen" type="xs:string" />
+            <xs:element name="DiaChi" type="xs:string" />
+            <xs:element name="GioiTinh" type="xs:string" />
+            <xs:element name="NgayNhapVien" type="xs:date" />
+            <xs:element name="SoNgayDieuTri" type="xs:integer" />
+            <xs:element name="SoTienPhaiTra" type="xs:decimal" />
+        </xs:sequence>
+        <xs:attribute name="MaBenhAn" type="xs:string" use="required" />
+    </xs:complexType>
+</xs:schema>

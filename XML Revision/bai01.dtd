@@ -1,0 +1,13 @@
+<!ELEMENT BenhVienDaKhoa (Khoa,DanhSachBenhNhan)>
+<!ELEMENT Khoa (#PCDATA)>
+<!ELEMENT DanhSachBenhNhan (BenhNhan*)>
+<!ELEMENT BenhNhan (STT,MaBenhAn,HoTen,DiaChi,GioiTinh,NgayNhapVien,SoNgayDieuTri,SoTienPhaiTra)>
+<!ELEMENT STT (#PCDATA)>
+<!ELEMENT MaBenhAn (#PCDATA)>
+<!ELEMENT HoTen (#PCDATA)>
+<!ELEMENT DiaChi (#PCDATA)>
+<!ELEMENT GioiTinh (#PCDATA)>
+<!ELEMENT NgayNhapVien (#PCDATA)>
+<!ELEMENT SoNgayDieuTri (#PCDATA)>
+<!ELEMENT SoTienPhaiTra (#PCDATA)>
+<!ATTLIST BenhNhan MaBenhAn ID #REQUIRED>

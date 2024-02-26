@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema targetNamespace="http://tempuri.org/XMLSchema.xsd"
+  elementFormDefault="qualified"
+  xmlns="http://tempuri.org/XMLSchema.xsd"
+  xmlns:mstns="http://tempuri.org/XMLSchema.xsd"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <xs:element name="DanhSachSinhVien">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="LopHocPhan" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="LopHocPhan">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="HocKy" type="xs:string" />
+        <xs:element name="NamHoc" type="xs:string" />
+        <xs:element name="SoTinChi" type="xs:integer" />
+        <xs:element name="DanhSach">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SinhVien" type="student" maxOccurs="unbounded"></xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="student">
+
+    <xs:sequence>
+      <xs:element name="STT" type="xs:integer" />
+      <xs:element name="MaSinhVien" type="xs:string" />
+      <xs:element name="HoTen" type="xs:string" />
+      <xs:element name="NgaySinh" type="xs:date" />
+      <xs:element name="Lop" type="xs:string" />
+      <xs:element name="ThuongXuyen" type="xs:double" />
+      <xs:element name="Thi" type="xs:double" />
+      <xs:element name="TongKetHP" type="xs:double" />
+      <xs:element name="DiemHeChu" type="xs:string" />
+    </xs:sequence>
+    <xs:attribute name="MaSinhVien" type="xs:string" use="required" />
+  </xs:complexType>
+
+</xs:schema>

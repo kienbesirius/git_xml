@@ -1,0 +1,16 @@
+C:\Users\bechj\OneDrive\second_semester_dec_2023_2024\XML_LEARN\visual_microsoft_code\repos\XML Revision\bin\Debug\net8.0-windows\XML Revision.exe
+C:\Users\bechj\OneDrive\second_semester_dec_2023_2024\XML_LEARN\visual_microsoft_code\repos\XML Revision\bin\Debug\net8.0-windows\XML Revision.deps.json
+C:\Users\bechj\OneDrive\second_semester_dec_2023_2024\XML_LEARN\visual_microsoft_code\repos\XML Revision\bin\Debug\net8.0-windows\XML Revision.runtimeconfig.json
+C:\Users\bechj\OneDrive\second_semester_dec_2023_2024\XML_LEARN\visual_microsoft_code\repos\XML Revision\bin\Debug\net8.0-windows\XML Revision.dll
+C:\Users\bechj\OneDrive\second_semester_dec_2023_2024\XML_LEARN\visual_microsoft_code\repos\XML Revision\bin\Debug\net8.0-windows\XML Revision.pdb
+C:\Users\bechj\OneDrive\second_semester_dec_2023_2024\XML_LEARN\visual_microsoft_code\repos\XML Revision\obj\Debug\net8.0-windows\XML_Revision.Form1.resources
+C:\Users\bechj\OneDrive\second_semester_dec_2023_2024\XML_LEARN\visual_microsoft_code\repos\XML Revision\obj\Debug\net8.0-windows\XML Revision.csproj.GenerateResource.cache
+C:\Users\bechj\OneDrive\second_semester_dec_2023_2024\XML_LEARN\visual_microsoft_code\repos\XML Revision\obj\Debug\net8.0-windows\XML Revision.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bechj\OneDrive\second_semester_dec_2023_2024\XML_LEARN\visual_microsoft_code\repos\XML Revision\obj\Debug\net8.0-windows\XML Revision.AssemblyInfoInputs.cache
+C:\Users\bechj\OneDrive\second_semester_dec_2023_2024\XML_LEARN\visual_microsoft_code\repos\XML Revision\obj\Debug\net8.0-windows\XML Revision.AssemblyInfo.cs
+C:\Users\bechj\OneDrive\second_semester_dec_2023_2024\XML_LEARN\visual_microsoft_code\repos\XML Revision\obj\Debug\net8.0-windows\XML Revision.csproj.CoreCompileInputs.cache
+C:\Users\bechj\OneDrive\second_semester_dec_2023_2024\XML_LEARN\visual_microsoft_code\repos\XML Revision\obj\Debug\net8.0-windows\XML Revision.dll
+C:\Users\bechj\OneDrive\second_semester_dec_2023_2024\XML_LEARN\visual_microsoft_code\repos\XML Revision\obj\Debug\net8.0-windows\refint\XML Revision.dll
+C:\Users\bechj\OneDrive\second_semester_dec_2023_2024\XML_LEARN\visual_microsoft_code\repos\XML Revision\obj\Debug\net8.0-windows\XML Revision.pdb
+C:\Users\bechj\OneDrive\second_semester_dec_2023_2024\XML_LEARN\visual_microsoft_code\repos\XML Revision\obj\Debug\net8.0-windows\XML Revision.genruntimeconfig.cache
+C:\Users\bechj\OneDrive\second_semester_dec_2023_2024\XML_LEARN\visual_microsoft_code\repos\XML Revision\obj\Debug\net8.0-windows\ref\XML Revision.dll
