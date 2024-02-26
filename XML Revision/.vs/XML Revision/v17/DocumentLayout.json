@@ -7,8 +7,12 @@
       "RelativeMoniker": "D:0:0:{CCA97827-89D2-4EF4-85C3-B78890ADF499}|XML Revision.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CCA97827-89D2-4EF4-85C3-B78890ADF499}|XML Revision.csproj|c:\\users\\bechj\\onedrive\\second_semester_dec_2023_2024\\xml_learn\\visual_microsoft_code\\repos\\xml revision\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{CCA97827-89D2-4EF4-85C3-B78890ADF499}|XML Revision.csproj|C:\\Users\\bechj\\OneDrive\\second_semester_dec_2023_2024\\XML_LEARN\\visual_microsoft_code\\repos\\XML Revision\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{CCA97827-89D2-4EF4-85C3-B78890ADF499}|XML Revision.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCA97827-89D2-4EF4-85C3-B78890ADF499}|XML Revision.csproj|c:\\users\\bechj\\onedrive\\second_semester_dec_2023_2024\\xml_learn\\visual_microsoft_code\\repos\\xml revision\\bai03.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{CCA97827-89D2-4EF4-85C3-B78890ADF499}|XML Revision.csproj|solutionrelative:bai03.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -35,13 +39,27 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "bai03.xml",
+              "DocumentMoniker": "C:\\Users\\bechj\\OneDrive\\second_semester_dec_2023_2024\\XML_LEARN\\visual_microsoft_code\\repos\\XML Revision\\bai03.xml",
+              "RelativeDocumentMoniker": "bai03.xml",
+              "ToolTip": "C:\\Users\\bechj\\OneDrive\\second_semester_dec_2023_2024\\XML_LEARN\\visual_microsoft_code\\repos\\XML Revision\\bai03.xml",
+              "RelativeToolTip": "bai03.xml",
+              "ViewState": "AQIAABcAAAAAAAAAAAAiwBgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-02-26T03:39:04.854Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\bechj\\OneDrive\\second_semester_dec_2023_2024\\XML_LEARN\\visual_microsoft_code\\repos\\XML Revision\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\bechj\\OneDrive\\second_semester_dec_2023_2024\\XML_LEARN\\visual_microsoft_code\\repos\\XML Revision\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAABcAAAAAAAAA",
+              "ViewState": "AQIAAP4AAAAAAAAAAAAYwBgBAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-26T02:42:28.801Z",
               "EditorCaption": ""

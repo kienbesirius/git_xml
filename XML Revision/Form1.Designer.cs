@@ -95,6 +95,7 @@
             bai03ToolStripMenuItem.Name = "bai03ToolStripMenuItem";
             bai03ToolStripMenuItem.Size = new Size(64, 24);
             bai03ToolStripMenuItem.Text = "Bài 03";
+            bai03ToolStripMenuItem.Click += bai03ToolStripMenuItem_Click;
             // 
             // bai04ToolStripMenuItem
             // 
@@ -369,6 +370,7 @@
             buttonAdd.TabIndex = 0;
             buttonAdd.Text = "Thêm";
             buttonAdd.UseVisualStyleBackColor = true;
+            buttonAdd.Click += buttonAdd_Click;
             // 
             // buttonUpdate
             // 
@@ -421,6 +423,7 @@
             buttonRefresh.TabIndex = 5;
             buttonRefresh.Text = "Làm mới";
             buttonRefresh.UseVisualStyleBackColor = true;
+            buttonRefresh.Click += buttonRefresh_Click;
             // 
             // Form1
             // 
